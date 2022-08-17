@@ -13,7 +13,7 @@ This allows the integration of external invoicing systems with the Polish system
 
 **InsERT Rewizor GT**
 
-[XML file with documents data] => [XML Importer for InsERT Subiekt nexo PRO](https://www.artoit.pl/moduly/nexo/import_faktur.html#nav) => [InsERT Subiekt GT Sfera](https://www.insert.com.pl/programy_dla_firm/sprzedaz/subiekt_gt_sfera/opis.html) => InsERT Rewizor GT
+[XML file with documents data] => [XML Importer for InsERT Subiekt GT Sfera](https://www.artoit.pl/moduly/gt/import_zamowien.html#nav) => [InsERT Subiekt GT Sfera](https://www.insert.com.pl/programy_dla_firm/sprzedaz/subiekt_gt_sfera/opis.html) => InsERT Rewizor GT
 
 ## Technology
 * .NET Standard 2.0 
