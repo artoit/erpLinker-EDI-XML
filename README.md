@@ -48,7 +48,7 @@ eDok1.Buyer = new AddressData()
   FirstName = "Adam",
   LastName = "Kowalsky",
   PostCode = "30-456",
-  Street = "Rynek"
+  Street = "Rynek",
   StreetNumber = "45/1",
   TaxID = "7774445550"
 };
@@ -58,10 +58,10 @@ var item1 = new DocumentItem()
 {
   Type = EDocumentItemType.Goods,
   SKU = "ASOR01",
-  Name = "GOOD ASOR"
+  Name = "GOOD ASOR",
   Description = "This good asor is...",
   CodeGTU = "05",
-  EAN = "5901239875551"
+  EAN = "5901239875551",
   UnitOfMeasure = "PCE",
   UnitPrice = 300,
   Quantity = 3
@@ -77,9 +77,9 @@ var item2 = new DocumentItem()
 {
   Type = EDocumentItemType.Services,
   SKU = "Sv_mont",
-  Name = "Assembly SV"
+  Name = "Assembly SV",
   UnitPrice = 100,
-  Quantity = 1
+  Quantity = 1,
   Amount = 100,
   TaxCode = "np"
 };
