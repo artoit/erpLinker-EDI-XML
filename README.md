@@ -6,7 +6,7 @@ This enables integration with Polish accounting and tax systems like InsERT Rewi
 
 This allows the integration of external invoicing systems with the Polish system "National System of e-invoices" (KSeF), which requires sending invoices to the national system of invoices.
 
-### Scheme of integration with Polish accounting system
+### Scheme of integration with Polish accounting system (KSeF)
 **InsERT Rewizor nexo**
 
 [XML file with documents data] => [XML Importer for InsERT Subiekt nexo PRO](https://www.artoit.pl/moduly/nexo/import_faktur.html#nav) => [InsERT Subiekt nexo PRO](https://www.insert.com.pl/programy_dla_firm/sprzedaz/subiekt_nexo_pro/opis.html) => InsERT Rewizor nexo
