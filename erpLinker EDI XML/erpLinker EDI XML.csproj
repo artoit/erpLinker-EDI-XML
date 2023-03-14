@@ -13,6 +13,9 @@
     <Description>Library to help creating XML documents which can import to the Polish ERP system: InsERT Subiekt nexo PRO and Subiekt GT</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>erpLinker-EDI-XML</PackageId>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
