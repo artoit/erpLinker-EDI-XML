@@ -1,5 +1,5 @@
 # erpLinker EDI XML
-## Lbrary supporting import documents in XML to the Polish ERP system: InsERT Subiekt nexo PRO and Subiekt GT by [ARTOIT - IT Systems](https://www.artoit.pl/)
+## Library supporting import documents in XML to the Polish ERP system: InsERT Subiekt nexo PRO and Subiekt GT by [ARTOIT - IT Systems](https://www.artoit.pl/)
 
 XML files created using this library can be imported by the plugins - [XML documents Importer for InsERT Subiekt nexo PRO](https://www.artoit.pl/moduly/nexo/import_faktur.html#nav) and [XML documents Importer for InsERT Subiekt GT](https://www.artoit.pl/moduly/gt/import_zamowien.html#nav).
 This enables integration with Polish accounting and tax systems like InsERT Rewizor.
