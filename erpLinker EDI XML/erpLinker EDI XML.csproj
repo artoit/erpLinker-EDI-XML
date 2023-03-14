@@ -3,6 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>erpLinker_EDI_XML</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>ARTOIT (dev@artoit.pl)</Authors>
+    <PackageProjectUrl>https://github.com/artoit/erpLinker-EDI-XML</PackageProjectUrl>
+    <Copyright>www.artoit.pl</Copyright>
+    <RepositoryUrl>https://github.com/artoit/erpLinker-EDI-XML</RepositoryUrl>
+    <PackageTags>erp edi xml ksef artoit subiekt erplinker import documents orders invoices</PackageTags>
+    <Company>ARTOIT.PL</Company>
+    <Description>Library to help creating XML documents which can import to the Polish ERP system: InsERT Subiekt nexo PRO and Subiekt GT</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>erpLinker-EDI-XML</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

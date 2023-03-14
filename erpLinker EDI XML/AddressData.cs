@@ -10,6 +10,8 @@
 
         public string TaxID { get; set; }
 
+        public string Reference { get; set; }
+
         public string Street { get; set; }
 
         public string StreetNumber { get; set; }
@@ -28,17 +30,18 @@
 
         public bool IsEmpty()
         {
-            if(string.IsNullOrWhiteSpace(CompanyName) &&
+            if (string.IsNullOrWhiteSpace(CompanyName) &&
                string.IsNullOrWhiteSpace(FirstName) &&
                string.IsNullOrWhiteSpace(LastName) &&
                string.IsNullOrWhiteSpace(TaxID) &&
                string.IsNullOrWhiteSpace(Email) &&
+               string.IsNullOrWhiteSpace(Reference) &&
                string.IsNullOrWhiteSpace(Phone) &&
                string.IsNullOrWhiteSpace(Street) &&
                string.IsNullOrWhiteSpace(City))
             {
                 return true;
-            }    
+            }
             else
             {
                 return false;
@@ -51,6 +54,7 @@
             FirstName = FirstName?.Trim();
             LastName = LastName?.Trim();
             TaxID = TaxID?.Trim();
+            Reference = Reference?.Trim();
             Street = Street?.Trim();
             StreetNumber = StreetNumber?.Trim();
             City = City?.Trim();
